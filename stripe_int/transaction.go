@@ -10,3 +10,9 @@ func (s *Stripe) getBalanceTransactions() interface{} {
 	list := balancetransaction.List(params).BalanceTransactionList().Data
 	return list
 }
+
+func (s *Stripe) getBalanceTransaction() interface{} {
+	params := &stripe.BalanceTransactionParams{}
+	data, _ := balancetransaction.Get("txn_3OD6ZX2eZvKYlo2C1uII11Gl", params)
+	return data
+}
