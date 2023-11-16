@@ -12,5 +12,15 @@ func (s *Stripe) getBalance() interface{} {
 	if err != nil {
 		log.Println(err)
 	}
-	return data
+	var amount int64
+	for _, val := range data.Available {
+		if val.Currency == "usd" {
+			amount = val.Amount
+		}
+	}
+	res := map[string]interface{}{
+		"amount":            amount,
+		"iso_currency_code": "USD",
+	}
+	return res
 }

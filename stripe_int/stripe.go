@@ -17,41 +17,41 @@ func New() *Stripe {
 
 func (s *Stripe) GetAll() {
 	var data interface{}
-	//data = s.getCustomerList()
-	//constructJson("customers", data)
-	//
-	//data = s.getCustomer()
-	//constructJson("customer", data)
-	//
-	//data = s.getProducts()
-	//constructJson("products", data)
-	//
-	//data = s.getProduct()
-	//constructJson("product", data)
-	//
-	//data = s.getBalanceTransactions()
-	//constructJson("transactions", data)
-	//
-	//data = s.getBalanceTransaction()
-	//constructJson("transaction", data)
-	//
-	//data = s.getBalance()
-	//constructJson("balance", data)
-	//
-	//data = s.getSubscriptions()
-	//constructJson("subscriptions", data)
-	//
-	//data = s.getSubscription()
-	//constructJson("subscription", data)
-	//
-	//data = s.getPayouts()
-	//constructJson("payouts", data)
-	//
-	//data = s.getPayout()
-	//constructJson("payout", data)
-	//
-	//data = s.getTaxRates()
-	//constructJson("tax-rates", data)
+	data = s.getCustomerList()
+	constructJson("customers", data)
+
+	data = s.getCustomer()
+	constructJson("customer", data)
+
+	data = s.getProducts()
+	constructJson("products", data)
+
+	data = s.getProduct()
+	constructJson("product", data)
+
+	data = s.getBalanceTransactions()
+	constructJson("transactions", data)
+
+	data = s.getBalanceTransaction()
+	constructJson("transaction", data)
+
+	data = s.getBalance()
+	constructJson("balance", data)
+
+	data = s.getSubscriptions()
+	constructJson("subscriptions", data)
+
+	data = s.getSubscription()
+	constructJson("subscription", data)
+
+	data = s.getPayouts()
+	constructJson("payouts", data)
+
+	data = s.getPayout()
+	constructJson("payout", data)
+
+	data = s.getTaxRates()
+	constructJson("tax-rates", data)
 
 	data = s.getTaxRate()
 	constructJson("tax-rate", data)
