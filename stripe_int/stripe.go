@@ -16,8 +16,20 @@ func New() *Stripe {
 }
 
 func (s *Stripe) GetAll() {
-	data := s.getStore()
-	constructJson("store", data)
+	//data := s.getCustomerList()
+	//constructJson("customers", data)
+
+	//data := s.getCustomer()
+	//constructJson("customer", data)
+
+	//data := s.getProducts()
+	//constructJson("products", data)
+
+	//data := s.getProduct()
+	//constructJson("product", data)
+
+	data := s.getBalanceTransactions()
+	constructJson("transactions", data)
 }
 
 func constructJson(name string, obj interface{}) {

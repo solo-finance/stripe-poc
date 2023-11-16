@@ -1,0 +1,274 @@
+[
+ {
+  "amount": 118321,
+  "available_on": 1700697600,
+  "created": 1700144975,
+  "currency": "usd",
+  "description": "",
+  "exchange_rate": 0,
+  "fee": 3461,
+  "fee_details": [
+   {
+    "amount": 3461,
+    "application": "",
+    "currency": "usd",
+    "description": "Stripe processing fees",
+    "type": "stripe_fee"
+   }
+  ],
+  "id": "txn_3OD6ZX2eZvKYlo2C1uII11Gl",
+  "net": 114860,
+  "object": "balance_transaction",
+  "reporting_category": "charge",
+  "source": {
+   "id": "ch_3OD6ZX2eZvKYlo2C1mhbBYwY",
+   "object": ""
+  },
+  "status": "pending",
+  "type": "charge"
+ },
+ {
+  "amount": 1074,
+  "available_on": 1700697600,
+  "created": 1700144965,
+  "currency": "usd",
+  "description": "Test Clinic - Payment for appointment with ID 6",
+  "exchange_rate": 1.07439,
+  "fee": 61,
+  "fee_details": [
+   {
+    "amount": 61,
+    "application": "",
+    "currency": "usd",
+    "description": "Stripe processing fees",
+    "type": "stripe_fee"
+   }
+  ],
+  "id": "txn_3OD6ZL2eZvKYlo2C1PyZ1d70",
+  "net": 1013,
+  "object": "balance_transaction",
+  "reporting_category": "charge",
+  "source": {
+   "id": "ch_3OD6ZL2eZvKYlo2C1A0AOjov",
+   "object": ""
+  },
+  "status": "pending",
+  "type": "charge"
+ },
+ {
+  "amount": 1074,
+  "available_on": 1700697600,
+  "created": 1700144961,
+  "currency": "usd",
+  "description": "Test Clinic - Payment for appointment with ID 4",
+  "exchange_rate": 1.07439,
+  "fee": 61,
+  "fee_details": [
+   {
+    "amount": 61,
+    "application": "",
+    "currency": "usd",
+    "description": "Stripe processing fees",
+    "type": "stripe_fee"
+   }
+  ],
+  "id": "txn_3OD6ZH2eZvKYlo2C0IDYClN2",
+  "net": 1013,
+  "object": "balance_transaction",
+  "reporting_category": "charge",
+  "source": {
+   "id": "ch_3OD6ZH2eZvKYlo2C0YxwP36d",
+   "object": ""
+  },
+  "status": "pending",
+  "type": "charge"
+ },
+ {
+  "amount": 537,
+  "available_on": 1700697600,
+  "created": 1700144955,
+  "currency": "usd",
+  "description": "Test Clinic - Payment for appointment with ID 18",
+  "exchange_rate": 1.07439,
+  "fee": 46,
+  "fee_details": [
+   {
+    "amount": 46,
+    "application": "",
+    "currency": "usd",
+    "description": "Stripe processing fees",
+    "type": "stripe_fee"
+   }
+  ],
+  "id": "txn_3OD6ZC2eZvKYlo2C1LwMD00g",
+  "net": 491,
+  "object": "balance_transaction",
+  "reporting_category": "charge",
+  "source": {
+   "id": "ch_3OD6ZC2eZvKYlo2C12jYzOmX",
+   "object": ""
+  },
+  "status": "pending",
+  "type": "charge"
+ },
+ {
+  "amount": -1085,
+  "available_on": 1700697600,
+  "created": 1700144947,
+  "currency": "usd",
+  "description": "REFUND FOR CHARGE (Test Clinic - Payment for appointment with ID 3)",
+  "exchange_rate": 1.08524,
+  "fee": 0,
+  "fee_details": [],
+  "id": "txn_3OD6Yw2eZvKYlo2C0fRn9t8M",
+  "net": -1085,
+  "object": "balance_transaction",
+  "reporting_category": "refund",
+  "source": {
+   "id": "re_3OD6Yw2eZvKYlo2C0mOMu5IY",
+   "object": ""
+  },
+  "status": "pending",
+  "type": "refund"
+ },
+ {
+  "amount": 1074,
+  "available_on": 1700697600,
+  "created": 1700144940,
+  "currency": "usd",
+  "description": "Test Clinic - Payment for appointment with ID 3",
+  "exchange_rate": 1.07439,
+  "fee": 61,
+  "fee_details": [
+   {
+    "amount": 61,
+    "application": "",
+    "currency": "usd",
+    "description": "Stripe processing fees",
+    "type": "stripe_fee"
+   }
+  ],
+  "id": "txn_3OD6Yw2eZvKYlo2C0leoamit",
+  "net": 1013,
+  "object": "balance_transaction",
+  "reporting_category": "charge",
+  "source": {
+   "id": "ch_3OD6Yw2eZvKYlo2C0hWycDLl",
+   "object": ""
+  },
+  "status": "pending",
+  "type": "charge"
+ },
+ {
+  "amount": 2149,
+  "available_on": 1700697600,
+  "created": 1700144939,
+  "currency": "usd",
+  "description": "Test Clinic - Payment for appointment with code GPPMFZSS",
+  "exchange_rate": 1.07439,
+  "fee": 92,
+  "fee_details": [
+   {
+    "amount": 92,
+    "application": "",
+    "currency": "usd",
+    "description": "Stripe processing fees",
+    "type": "stripe_fee"
+   }
+  ],
+  "id": "txn_3OD6Yw2eZvKYlo2C1l91X0jZ",
+  "net": 2057,
+  "object": "balance_transaction",
+  "reporting_category": "charge",
+  "source": {
+   "id": "ch_3OD6Yw2eZvKYlo2C1loVkV6d",
+   "object": ""
+  },
+  "status": "pending",
+  "type": "charge"
+ },
+ {
+  "amount": 537,
+  "available_on": 1700697600,
+  "created": 1700144936,
+  "currency": "usd",
+  "description": "Test Clinic - Payment for appointment with ID 17",
+  "exchange_rate": 1.07439,
+  "fee": 46,
+  "fee_details": [
+   {
+    "amount": 46,
+    "application": "",
+    "currency": "usd",
+    "description": "Stripe processing fees",
+    "type": "stripe_fee"
+   }
+  ],
+  "id": "txn_3OD6Ys2eZvKYlo2C0N1LMIw5",
+  "net": 491,
+  "object": "balance_transaction",
+  "reporting_category": "charge",
+  "source": {
+   "id": "ch_3OD6Ys2eZvKYlo2C0e2EBJIF",
+   "object": ""
+  },
+  "status": "pending",
+  "type": "charge"
+ },
+ {
+  "amount": 15964,
+  "available_on": 1700697600,
+  "created": 1700144922,
+  "currency": "usd",
+  "description": "Peoplevine UK - General public for Ed Sheeran presents:  The ‘=’ UK Tour  o",
+  "exchange_rate": 1.22804,
+  "fee": 493,
+  "fee_details": [
+   {
+    "amount": 493,
+    "application": "",
+    "currency": "usd",
+    "description": "Stripe processing fees",
+    "type": "stripe_fee"
+   }
+  ],
+  "id": "txn_3OD6Yg2eZvKYlo2C0pbHQeaw",
+  "net": 15471,
+  "object": "balance_transaction",
+  "reporting_category": "charge",
+  "source": {
+   "id": "ch_3OD6Yg2eZvKYlo2C0vEV5GOI",
+   "object": ""
+  },
+  "status": "pending",
+  "type": "charge"
+ },
+ {
+  "amount": 537,
+  "available_on": 1700697600,
+  "created": 1700144915,
+  "currency": "usd",
+  "description": "Test Clinic - Payment for appointment with ID 16",
+  "exchange_rate": 1.07439,
+  "fee": 46,
+  "fee_details": [
+   {
+    "amount": 46,
+    "application": "",
+    "currency": "usd",
+    "description": "Stripe processing fees",
+    "type": "stripe_fee"
+   }
+  ],
+  "id": "txn_3OD6YY2eZvKYlo2C0BQ3RG49",
+  "net": 491,
+  "object": "balance_transaction",
+  "reporting_category": "charge",
+  "source": {
+   "id": "ch_3OD6YY2eZvKYlo2C0XfMz7tT",
+   "object": ""
+  },
+  "status": "pending",
+  "type": "charge"
+ }
+]

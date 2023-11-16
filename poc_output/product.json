@@ -1,0 +1,22 @@
+{
+ "active": true,
+ "created": 1700144615,
+ "default_price": null,
+ "deleted": false,
+ "description": "",
+ "features": [],
+ "id": "prod_P18lma20MZNFCK",
+ "images": [],
+ "livemode": false,
+ "metadata": {},
+ "name": "Startup Investor Academy",
+ "object": "product",
+ "package_dimensions": null,
+ "shippable": false,
+ "statement_descriptor": "",
+ "tax_code": null,
+ "type": "service",
+ "unit_label": "",
+ "updated": 1700144615,
+ "url": ""
+}
