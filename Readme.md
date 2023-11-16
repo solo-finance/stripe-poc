@@ -2,7 +2,7 @@
 
 ### Requirements 
 
-To reproduce the APIs that bring us the data that is replicated in Rutter
+To find the APIs in Stripe that bring us the data that is integrated in Rutter
 
 ### Structure
 
