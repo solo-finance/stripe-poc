@@ -40,9 +40,21 @@ func (s *Stripe) GetAll() {
 	//
 	//data = s.getSubscriptions()
 	//constructJson("subscriptions", data)
+	//
+	//data = s.getSubscription()
+	//constructJson("subscription", data)
+	//
+	//data = s.getPayouts()
+	//constructJson("payouts", data)
+	//
+	//data = s.getPayout()
+	//constructJson("payout", data)
+	//
+	//data = s.getTaxRates()
+	//constructJson("tax-rates", data)
 
-	data = s.getSubscription()
-	constructJson("subscription", data)
+	data = s.getTaxRate()
+	constructJson("tax-rate", data)
 }
 
 func constructJson(name string, obj interface{}) {

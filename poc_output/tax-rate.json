@@ -1,0 +1,17 @@
+{
+ "active": true,
+ "country": "DE",
+ "created": 1700146967,
+ "description": "VAT Germany",
+ "display_name": "VAT",
+ "effective_percentage": 0,
+ "id": "txr_1OD75f2eZvKYlo2ChcgBSsUD",
+ "inclusive": false,
+ "jurisdiction": "DE",
+ "livemode": false,
+ "metadata": {},
+ "object": "tax_rate",
+ "percentage": 19,
+ "state": "",
+ "tax_type": "vat"
+}
